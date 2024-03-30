@@ -21,17 +21,17 @@ import Neo4jLogo from './../../../resources/Neo4j-logo_color.png'
 const CardsInfo = [
     {
         'Title': 'React js',
-        Description: " Utilizing React's component-based architecture to create an immersive portfolio experience that captivates and engages visitors.",
+        Description: "Experience dynamic web experiences crafted with React, showcasing innovation and user-centric design.",
         cardimage: ReactJsLogo
     },
     {
         'Title': 'ASP.NET Core',
-        Description: "Unleash your skills with a dynamic .NET Core portfolio, showcasing your expertise with precision and power.",
+        Description: "Explore cutting-edge web solutions powered by .NET Core, blending performance with seamless functionality.",
         cardimage: NetCoreLogo
     },
     {
         'Title': 'Python Flask',
-        Description: "Showcase your talents with a sleek Flask portfolio, powered by Python, delivering elegance and efficiency in every display.",
+        Description: "Discover sleek web applications built on Python Flask, seamlessly marrying simplicity with powerful functionality.",
         cardimage: Flask_Logo
     },
     {
