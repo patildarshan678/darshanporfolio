@@ -4,10 +4,12 @@ import Typography from '@mui/material/Typography';
 
 import Container from '@mui/material/Container';
 import Cards from './Cards';
+import SubPoster from './SubPoster';
 const fontStylesheet ={ fontFamily: 'Roboto' }
 function Homepage1() {
     const ContainerStyle = {backgroundColor: '',
     'min-height': '105vh',
+    'max-width' : '100%',
 
 }
   return (
@@ -17,6 +19,7 @@ function Homepage1() {
 Full Spectrum: A Full Stack Developer's Portfolio
       </Typography>
       <br/>
+      <SubPoster/>
         <Cards/>
     </Container>
   )
