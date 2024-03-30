@@ -7,6 +7,8 @@ import Container from '@mui/material/Container';
 import Img1 from './../../resources/Image1.jpg'
 import Image2 from  './../../resources/Image2.jpg'
 import './Home.css'
+import Homepage1 from './HomePage1Components/Homepage1';
+import Footer from './Footer';
 function Home() {
     var items = [
         {
@@ -23,13 +25,14 @@ function Home() {
     }
     return (
         <>
-        <CssBaseline />
-      <Container maxWidth="s" style={{backgroundColor: 'red'}}>
+      <Container maxWidth="s" style={{backgroundColor: '',paddingTop:'0.5rem'}}>
          <Carousel >
             {
                 items.map(RenderImage)
             }
         </Carousel>
+        <Homepage1/>
+        <Footer/>
       </Container>
        
         </>
@@ -65,7 +68,6 @@ function Item(props,index)
     console.log(index);
     return (
         <Paper sx={stylesheet}>
-            <h2>{props.item.name}</h2>
             
             <img src={props.img} className='image'/>
 
