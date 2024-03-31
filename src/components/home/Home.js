@@ -5,12 +5,19 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Img1 from './../../resources/Image1.jpg'
-import Image2 from  './../../resources/Image2.jpg'
+import Image2 from  './../../resources/Image2.jpg';
+import MainPoster from './../../resources/MainPoster.jpg'
+
 import './Home.css'
 import Homepage1 from './HomePage1Components/Homepage1';
 import Footer from './Footer';
 function Home() {
     var items = [
+        {
+            name: "Random Name #1",
+            description: "Probably the most random thing you have ever seen!"
+        }
+        ,
         {
             name: "Random Name #1",
             description: "Probably the most random thing you have ever seen!"
@@ -49,9 +56,12 @@ function getImage(index)
 {
     switch (index) {
         case 0:
-            return Img1
+            return MainPoster
             break;
         case 1:
+            return Img1
+            break;
+        case 2:
             return Image2
     
         default:
@@ -69,7 +79,7 @@ function Item(props,index)
     return (
         <Paper sx={stylesheet}>
             
-            <img src={props.img} className='image'/>
+            <img src={props.img} className='image' style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
 
         </Paper>
     )
