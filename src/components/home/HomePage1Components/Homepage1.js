@@ -12,6 +12,7 @@ function Homepage1() {
     const ContainerStyle = {backgroundColor: '',
     'min-height': '105vh',
     'max-width' : '100%',
+    'background-color':'#FBEEC1'
 
 }
   return (
@@ -23,7 +24,6 @@ Full Spectrum: A Full Stack Developer's Portfolio
       <br/>
       <SubPoster/>
       {showCards ? <Cards/>:<Button variant="contained" onClick={()=>{SetshowCards(v=>!v)}}>Click To See Key Skills..!!</Button>}
-        
     </Container>
   )
 }
