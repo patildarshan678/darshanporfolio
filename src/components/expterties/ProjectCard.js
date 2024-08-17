@@ -19,23 +19,20 @@ function ProjectCard({Text,Title,Image}) {
         >
 
       <Box sx={{  maxHeight: '40%',width:'100%',padding:'1rem'}}maxWidth="m" >
-        <Typography variant='h3' >Title</Typography>
+        <Typography variant='h3' >{Title?Title:"Title"}</Typography>
         <>
         <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         height="220"
         width='10rem'
-        image="https://via.placeholder.com/150"
+        image={Image?Image:"https://via.placeholder.com/150"}
         alt="Placeholder image"
       />
       </Card>
       <Box sx={{ padding:'1rem',float:"left",marginLeft:'25rem',marginTop:'-10rem'}} maxWidth='sm' >
       <Typography variant="body1" gutterBottom>
-        body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-        blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
-        neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
-        quasi quidem quibusdam.
+        {Text?Text:"body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quosblanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eumquasi quidem quibusdam."}
       </Typography>
       </Box>
       </>
