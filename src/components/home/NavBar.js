@@ -22,7 +22,7 @@ function NavBar() {
               // Code to be executed if expression matches value1
               break;
             case 1:
-                navigate("/experience")
+                navigate("/projects")
               // Code to be executed if expression matches value2
               break;
             // Add more cases as needed
@@ -48,7 +48,7 @@ function NavBar() {
                     >   
                        <Tab label="Home" sx={value === 0 ? { color: 'white', backgroundColor: 'black' } : defaultTabStyle} onClick={()=>{tablhandler(0)}} />
                        
-                        <Tab label="Experience" sx={value === 1 ? { color: 'white', backgroundColor: 'black' } :defaultTabStyle} onClick={()=>{tablhandler(1)}}/>
+                        <Tab label="Projects" sx={value === 1 ? { color: 'white', backgroundColor: 'black' } :defaultTabStyle} onClick={()=>{tablhandler(1)}}/>
                         <Tab label="Contact" sx={value === 2 ? { color: 'white', backgroundColor: 'black' } : defaultTabStyle} onClick={()=>{tablhandler(2)}}/>
                     </Tabs>
                 </AppBar>

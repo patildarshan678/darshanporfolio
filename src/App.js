@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/home/NavBar';
 import Home from './components/home/Home';
-import Experience from './components/expterties/Experience';
+import Experience from './components/expterties/Projects';
 import Contact from './components/Contact';
 import { Routes, Route } from "react-router-dom"
 
@@ -12,7 +12,7 @@ function App() {
     <NavBar/>
     <Routes>
         <Route path="/" element={ <Home/> } />
-        <Route path="experience" element={ <Experience/> } />
+        <Route path="projects" element={ <Experience/> } />
         <Route path="contact" element={ <Contact/> } />
       </Routes>
    
