@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.858ab133.css",
-    "main.js": "/static/js/main.85809be1.js",
-    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
-    "static/media/Image1.jpg": "/static/media/Image1.ad60ef2cb7268871450b.jpg",
-    "static/media/MainPoster.jpg": "/static/media/MainPoster.370e007faa11a645bd88.jpg",
-    "static/media/PostGresLogo.png": "/static/media/PostGresLogo.61d75ac8007cc7934108.png",
-    "static/media/Image2.jpg": "/static/media/Image2.3b440d9026875ff42481.jpg",
-    "static/media/Neo4j-logo_color.png": "/static/media/Neo4j-logo_color.b831064f17ea92c0732c.png",
-    "static/media/DockerLogo.jpg": "/static/media/DockerLogo.0ae8bf47d9c99aa12bb3.jpg",
-    "static/media/FullStackDevImage.webp": "/static/media/FullStackDevImage.65591e3ffc0460393fff.webp",
-    "static/media/FlaskLogo.png": "/static/media/FlaskLogo.3c9cf799ce85224b23ad.png",
-    "static/media/ReactJsLogo.jpg": "/static/media/ReactJsLogo.94cb645c79f1b3b2bd6f.jpg",
-    "static/media/LinkedInLogo.png": "/static/media/LinkedInLogo.63b96b9ea7fdfd7a5ee0.png",
-    "static/media/NET_Core_Logo.svg": "/static/media/NET_Core_Logo.2a4dc5d93d71ac26c13b7b2b166d291d.svg",
-    "static/media/NET_Core_Logo.avif": "/static/media/NET_Core_Logo.252e16cb4a45f1b1822d.avif",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "static/media/linkedin.svg": "/static/media/linkedin.1e3c87aab8932a260a065f6eca21a8ef.svg",
-    "main.858ab133.css.map": "/static/css/main.858ab133.css.map",
-    "main.85809be1.js.map": "/static/js/main.85809be1.js.map",
-    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
+    "main.css": "/Darshan-Porfolio/static/css/main.858ab133.css",
+    "main.js": "/Darshan-Porfolio/static/js/main.6ea0fe2b.js",
+    "static/js/453.258b012d.chunk.js": "/Darshan-Porfolio/static/js/453.258b012d.chunk.js",
+    "static/media/Image1.jpg": "/Darshan-Porfolio/static/media/Image1.ad60ef2cb7268871450b.jpg",
+    "static/media/MainPoster.jpg": "/Darshan-Porfolio/static/media/MainPoster.370e007faa11a645bd88.jpg",
+    "static/media/PostGresLogo.png": "/Darshan-Porfolio/static/media/PostGresLogo.61d75ac8007cc7934108.png",
+    "static/media/Image2.jpg": "/Darshan-Porfolio/static/media/Image2.3b440d9026875ff42481.jpg",
+    "static/media/Neo4j-logo_color.png": "/Darshan-Porfolio/static/media/Neo4j-logo_color.b831064f17ea92c0732c.png",
+    "static/media/DockerLogo.jpg": "/Darshan-Porfolio/static/media/DockerLogo.0ae8bf47d9c99aa12bb3.jpg",
+    "static/media/FullStackDevImage.webp": "/Darshan-Porfolio/static/media/FullStackDevImage.65591e3ffc0460393fff.webp",
+    "static/media/FlaskLogo.png": "/Darshan-Porfolio/static/media/FlaskLogo.3c9cf799ce85224b23ad.png",
+    "static/media/ReactJsLogo.jpg": "/Darshan-Porfolio/static/media/ReactJsLogo.94cb645c79f1b3b2bd6f.jpg",
+    "static/media/LinkedInLogo.png": "/Darshan-Porfolio/static/media/LinkedInLogo.63b96b9ea7fdfd7a5ee0.png",
+    "static/media/NET_Core_Logo.svg": "/Darshan-Porfolio/static/media/NET_Core_Logo.2a4dc5d93d71ac26c13b7b2b166d291d.svg",
+    "static/media/NET_Core_Logo.avif": "/Darshan-Porfolio/static/media/NET_Core_Logo.252e16cb4a45f1b1822d.avif",
+    "static/media/logo.svg": "/Darshan-Porfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Darshan-Porfolio/index.html",
+    "static/media/linkedin.svg": "/Darshan-Porfolio/static/media/linkedin.1e3c87aab8932a260a065f6eca21a8ef.svg",
+    "main.858ab133.css.map": "/Darshan-Porfolio/static/css/main.858ab133.css.map",
+    "main.6ea0fe2b.js.map": "/Darshan-Porfolio/static/js/main.6ea0fe2b.js.map",
+    "453.258b012d.chunk.js.map": "/Darshan-Porfolio/static/js/453.258b012d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.858ab133.css",
-    "static/js/main.85809be1.js"
+    "static/js/main.6ea0fe2b.js"
   ]
 }
