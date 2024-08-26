@@ -18,16 +18,16 @@ function tablhandler(index)
     {
         switch (index) {
             case 0:
-                navigate("/")
+                navigate("/Darshan-Porfolio/")
               // Code to be executed if expression matches value1
               break;
             case 1:
-                navigate("/projects")
+                navigate("/Darshan-Porfolio//projects")
               // Code to be executed if expression matches value2
               break;
             // Add more cases as needed
             case 2:
-                navigate("contact")
+                navigate("/Darshan-Porfolio/contact")
             default:
               // Code to be executed if expression doesn't match any case
           }
