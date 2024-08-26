@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Carousel from 'react-material-ui-carousel'
 import { Paper, Button } from '@mui/material'
 import CssBaseline from '@mui/material/CssBaseline';
@@ -11,7 +11,11 @@ import MainPoster from './../../resources/MainPoster.jpg'
 import './Home.css'
 import Homepage1 from './HomePage1Components/Homepage1';
 import Footer from './Footer';
-function Home() {
+function Home({setActiveTab}) {
+    useEffect(() => {
+      setActiveTab("Home",0)
+    }, [])
+    
     var items = [
         {
             name: "Random Name #1",

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ProjectCard from './ProjectCard'
 const projectcars = [
   { Text: "A CSV generator from JSON project converts JSON data into a CSV format, enabling easier data manipulation and analysis in spreadsheet applications. It typically involves parsing JSON objects and converting them into comma-separated values, handling nested structures, and generating CSV files for export.", 
@@ -12,7 +12,11 @@ const projectcars = [
       Image: "https://img.freepik.com/premium-photo/file-csv-icon-black-white-lines-texture_873925-800759.jpg?w=740" }
 ];
 
-function Projects() {
+function Projects({setActiveTab}) {
+  useEffect(() => {
+    setActiveTab("Project",1)
+  }, [])
+  
   return (
     <div className='projects_div'>
       {projectcars.map((item) => (
