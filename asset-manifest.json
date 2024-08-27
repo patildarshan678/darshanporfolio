@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Darshan-Porfolio/static/css/main.858ab133.css",
-    "main.js": "/Darshan-Porfolio/static/js/main.3d78cf28.js",
+    "main.js": "/Darshan-Porfolio/static/js/main.ae302bfb.js",
     "static/js/453.258b012d.chunk.js": "/Darshan-Porfolio/static/js/453.258b012d.chunk.js",
     "static/media/Image1.jpg": "/Darshan-Porfolio/static/media/Image1.ad60ef2cb7268871450b.jpg",
     "static/media/MainPoster.jpg": "/Darshan-Porfolio/static/media/MainPoster.370e007faa11a645bd88.jpg",
@@ -19,11 +19,11 @@
     "index.html": "/Darshan-Porfolio/index.html",
     "static/media/linkedin.svg": "/Darshan-Porfolio/static/media/linkedin.1e3c87aab8932a260a065f6eca21a8ef.svg",
     "main.858ab133.css.map": "/Darshan-Porfolio/static/css/main.858ab133.css.map",
-    "main.3d78cf28.js.map": "/Darshan-Porfolio/static/js/main.3d78cf28.js.map",
+    "main.ae302bfb.js.map": "/Darshan-Porfolio/static/js/main.ae302bfb.js.map",
     "453.258b012d.chunk.js.map": "/Darshan-Porfolio/static/js/453.258b012d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.858ab133.css",
-    "static/js/main.3d78cf28.js"
+    "static/js/main.ae302bfb.js"
   ]
 }
