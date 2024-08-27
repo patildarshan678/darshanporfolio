@@ -22,7 +22,7 @@ function tablhandler(index)
               // Code to be executed if expression matches value1
               break;
             case 1:
-                navigate("/Darshan-Porfolio//projects")
+                navigate("/Darshan-Porfolio/projects")
               // Code to be executed if expression matches value2
               break;
             // Add more cases as needed
@@ -36,9 +36,9 @@ function tablhandler(index)
     <div className="App">
     <NavBar activeTab={value} tablchangehandler={handleChange} tablhandler={tablhandler}/>
     <Routes>
-        <Route path="/" element={ <Home setActiveTab={handleChange}/> } />
-        <Route path="projects" element={ <Experience setActiveTab={handleChange}/> } />
-        <Route path="contact" element={ <Contact setActiveTab={handleChange}/> } />
+        <Route path="/Darshan-Porfolio/" element={ <Home setActiveTab={handleChange}/> } />
+        <Route path="/Darshan-Porfolio/projects" element={ <Experience setActiveTab={handleChange}/> } />
+        <Route path="/Darshan-Porfolio/contact" element={ <Contact setActiveTab={handleChange}/> } />
       </Routes>
    
         </div>
